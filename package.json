@@ -1,6 +1,6 @@
 {
   "name": "express-legal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Express app serving configurable TOS and Privacy Policy",
   "main": "index.js",
   "scripts": {
