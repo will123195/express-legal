@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js -e js,html,css,less,json,txt --ignore public/dist/",
-    "postinstall": "bleh build"
+    "start": "nodemon server.js -e js,html,css,less,json,txt --ignore public/dist/"
   },
   "repository": {
     "type": "git",
