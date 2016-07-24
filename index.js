@@ -13,7 +13,8 @@ module.exports = function (config) {
   var app = express()
   config.COMPANYNAME = config.companyName.toUpperCase()
   app.use(bleh({
-    helpers: config
+    helpers: config,
+    root: __dirname
   }))
   return app
 }
