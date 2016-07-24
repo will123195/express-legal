@@ -1,0 +1,33 @@
+{
+  "name": "express-legal",
+  "version": "1.0.0",
+  "description": "Express app serving configurable TOS and Privacy Policy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js -e js,html,css,less,json,txt --ignore public/dist/",
+    "postinstall": "bleh build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will123195/express-legal.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/will123195/express-legal/issues"
+  },
+  "homepage": "https://github.com/will123195/express-legal#readme",
+  "dependencies": {
+    "bleh": "^1.1.0",
+    "browserify": "^13.0.1",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.5",
+    "less": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  },
+  "private": true,
+  "browserifyCommonDependencies": []
+}

@@ -1,0 +1,24 @@
+.page {
+  width: 800px;
+  margin: auto;
+}
+.b {
+  font-weight: bold;
+}
+h1 {
+  font-size: 42px;
+}
+b,
+strong {
+  font-weight: bold;
+}
+.privacy-title {
+  font-style: italic;
+}
+p {
+  margin: 20px 0;
+}
+ol li {
+  list-style-type: circle;
+  margin: 20px 0 0 15px;
+}
