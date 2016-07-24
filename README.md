@@ -9,7 +9,7 @@ npm install --save express-legal
 
 ## Usage
 
-```
+```js
 const express = require('express')
 const legal = require('express-legal')
 const app = express()
