@@ -14,7 +14,8 @@ module.exports = function (config) {
   config.COMPANYNAME = config.companyName.toUpperCase()
   app.use(bleh({
     helpers: config,
-    root: __dirname
+    root: __dirname,
+    dist: 'public/dist/legal'
   }))
   return app
 }
