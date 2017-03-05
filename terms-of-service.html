@@ -1,4 +1,16 @@
-<div class="page">
+<!doctype html>
+<html>
+<head>
+    <title>{{title}}</title>
+    {{#css}}
+    <link href="{{.}}" media="all" rel="stylesheet" type="text/css" />
+    {{/css}}
+    {{{head}}}
+</head>
+<body>
+<main>
+
+  <div class="page">
     <h1>{{title}}</h1>
     <div class="conditions-wrapper">
         <p class="policy-title">
@@ -56,4 +68,11 @@
         <p>You agree that: (i) the Website shall be deemed solely based in ; and  (ii) the Website shall be deemed a passive website that does not give rise to personal  jurisdiction over {{companyName}}, either specific or general, in jurisdictions other than  the State of . These Terms of Service shall be governed by the internal substantive  laws of the State of , without respect to its conflict of laws principles.  Any claim or dispute between you and {{companyName}} that arises in whole or in part from  the Website or these Terms of Service shall be decided exclusively by a federal or state  court of competent jurisdiction located in , . These Terms of Service,  together with the Privacy Policy at <a href="/privacy-policy">{{domain}}/privacy-policy</a> and one of the following two terms and conditions: Terms for any Program, and any other legal notices  published by {{companyName}} on the Website, shall constitute the entire agreement between  you and {{companyName}} concerning the Website. If any provision of these Terms of Service  is deemed invalid by a court of competent jurisdiction, the invalidity of such provision  shall not affect the validity of the remaining provisions of these Terms of Service,  which shall remain in full force and effect. No waiver of any term of this these  Terms of Service shall be deemed a further or continuing waiver of such term or any  other term, and a party's failure to assert any right or provision under these Terms  of Use shall not constitute a waiver of such right or provision. {{companyName}} reserves  the right to amend these Terms of Service at any time and without notice, and it is  your responsibility to review these Terms of Service for any changes. Your use of the  Website following any amendment of these Terms of Service will signify your assent to  and acceptance of its revised terms. YOU AND {{companyName}} AGREE THAT ANY CAUSE OF ACTION  ARISING OUT OF OR RELATED TO THE {{companyName}} WEBSITE MUST COMMENCE WITHIN ONE (1) YEAR  AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY  BARRED. </p>
         <p>Last updated: {{lastModified}}.</p>
     </div>
-</div>
+  </div>
+
+</main>
+{{#js}}
+<script type="text/javascript" src="{{.}}"></script>
+{{/js}}
+</body>
+</html>

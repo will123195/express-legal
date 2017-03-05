@@ -1,4 +1,16 @@
-<div class="page">
+<!doctype html>
+<html>
+<head>
+    <title>{{title}}</title>
+    {{#css}}
+    <link href="{{.}}" media="all" rel="stylesheet" type="text/css" />
+    {{/css}}
+    {{{head}}}
+</head>
+<body>
+<main>
+
+  <div class="page">
     <h1>Privacy Policy</h1>
     <div class="privacy-wrapper">
         <p>The use of the {{companyName}} website(s) and/or {{companyName}} software and any {{companyName}}  services and products (collectively, the "Website") provided by  ("{{companyName}}")  are subject to the provisions of this Privacy Policy, including any amendments or  updates hereto. This Privacy Policy is incorporated into and is subject to the {{companyName}} Terms of Service at <a href="/terms-of-service">{{domain}}/terms-of-service</a>. If you do not agree to this Privacy Policy, please do not use the  Website.</p>
@@ -42,4 +54,11 @@
         <p>The Website is hosted in the United States. If you are accessing the Website  from a jurisdiction with privacy laws or regulations that differ from United States  laws, please be advised that through your continued use of the Website, you are  transferring your personal information to the United States and you consent to that  transfer.</p>
         <p>Last updated: {{lastModified}}.</p>
     </div>
-</div>
+  </div>
+
+</main>
+{{#js}}
+<script type="text/javascript" src="{{.}}"></script>
+{{/js}}
+</body>
+</html>
